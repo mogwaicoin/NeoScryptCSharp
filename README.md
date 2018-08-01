@@ -3,14 +3,6 @@
 **NeoScrypt C# Implementation**
 *converted by darkfriend77 from Mogwaicoin Team*
 
-Orginal source: https://github.com/ghostlander/NeoScrypt
-
-- Copyright (c) 2009 Colin Percival, 2011 ArtForz
-- Copyright (c) 2012 Andrew Moon (floodyberry)
-- Copyright (c) 2012 Samuel Neves <sneves@dei.uc.pt>
-- Copyright (c) 2014-2018 John Doering <ghostlander@phoenixcoin.org>
-- All rights reserved.
-
 https://github.com/ghostlander/NeoScrypt/tree/89c04c75a674974936c6579b42764d5370139d3d
 
 NeoScrypt
@@ -27,6 +19,13 @@ Compile time definitions:
 
 There are also test vectors and benchmarks available.
 
+Orginal source: https://github.com/ghostlander/NeoScrypt
+
+- Copyright (c) 2009 Colin Percival, 2011 ArtForz
+- Copyright (c) 2012 Andrew Moon (floodyberry)
+- Copyright (c) 2012 Samuel Neves <sneves@dei.uc.pt>
+- Copyright (c) 2014-2018 John Doering <ghostlander@phoenixcoin.org>
+- All rights reserved.
 
 Documentation
 -------------
