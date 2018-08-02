@@ -2427,7 +2427,7 @@ namespace NeoScrypt
 
             /* Align and set up the buffers in stack */
             fixed (byte* stack = new byte[(int)(2 * kdf_buf_size + prf_input_size + prf_key_size + prf_output_size + stack_align)]) {
-                A = (byte*)(((uint)stack & ~(stack_align - 1)) + stack_align);
+                A = (byte*)stack;//A = (byte*)(((uint)stack & ~(stack_align - 1)) + stack_align);
                 B = &A[kdf_buf_size + prf_input_size];
                 prf_output = &A[2 * kdf_buf_size + prf_input_size + prf_key_size];
 
@@ -2521,7 +2521,7 @@ namespace NeoScrypt
 
             /* Align and set up the buffers in stack */
             fixed (byte* stack = new byte[(int)(864 + stack_align)]) {
-                A = (byte*)(((uint)stack & ~(stack_align - 1)) + stack_align);
+                A = (byte*)stack; // A = (byte*)(((uint)stack & ~(stack_align - 1)) + stack_align);
                 B = &A[320];
                 S = (uint*)&A[608];
 
@@ -2728,7 +2728,7 @@ namespace NeoScrypt
 
             fixed (byte* stack = new byte[(int)((N + 3) * r * 2 * BLOCK_SIZE + stack_align)]) {
                 /* X = r * 2 * BLOCK_SIZE */
-                X = (uint*)(((uint)stack & ~(stack_align - 1)) + stack_align);
+                X = (uint*)stack; // X = (uint*)(((uint)stack & ~(stack_align - 1)) + stack_align);
                 /* Z is a copy of X for ChaCha */
                 Z = &X[32 * r];
                 /* Y is an X sized temporal space */
