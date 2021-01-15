@@ -5,6 +5,8 @@
 
 https://github.com/ghostlander/NeoScrypt/tree/89c04c75a674974936c6579b42764d5370139d3d
 
+If you enjoy using SubstrateNetApi consider supporting me at [buymeacoffee.com/darkfriend77](https://www.buymeacoffee.com/darkfriend77)
+
 NeoScrypt
 =========
 
